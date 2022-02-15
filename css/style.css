@@ -1,0 +1,184 @@
+/*********class selector*********/
+.top-icon {
+  padding-right: 8%;
+}
+.top-link {
+  padding-left: 50%;
+  font-size: 1.25rem;
+}
+.nav-item {
+  margin-right: 10%;
+}
+.nav-item:hover {
+  background-color: #6c757d;
+}
+.navbar-brand {
+  font-size: 4rem;
+  font-family: 'Dancing Script', cursive;
+  font-weight: 700;
+}
+.navbar-light .navbar-brand {
+  color: #483434;
+}
+.navbar-light .navbar-brand:hover {
+  color: #fff;
+}
+.vanpic {
+  border-radius: 80%;
+}
+.inner-top {
+  margin: 185px 75px;
+}
+.btn {
+  padding: 1% 15%;
+  font-size: 1.75rem;
+}
+.btn:hover {
+  background-color: #6c757d;
+}
+.brochure {
+  padding: 5% 30% 2%;
+}
+.testimonial {
+  font-size: 3rem;
+  font-weight: 700;
+  color: #fff;
+}
+.carousel-inner {
+  padding: 5% 1%;
+  line-height: 2;
+  text-align: center;
+  height: 400px;
+}
+.avatar {
+  width: 60px;
+}
+.inner-bottom {
+  padding: 5% 15%;
+  height: 490px;
+}
+.quota {
+  font-family: 'Courgette', cursive;
+  font-size: 1.5rem;
+  color: #C8E3D4;
+}
+.signature {
+  font-family: 'Great Vibes', cursive;
+  color: #fff;
+  font-size: 1.45rem;
+}
+.icon {
+  color: #5584AC;
+}
+.icon:hover {
+  color: #FF0000;
+}
+.more {
+  padding: 5% 10%;
+  text-align: center;
+  line-height: 1.5;
+}
+.Subscribe {
+  border-color: #219F94;
+  padding: 1% 5%;
+  font-size: 1.25rem;
+}
+.Subscribe:hover{
+  background-color: #219F94;
+  color: #fff;
+}
+.lower {
+  margin: 0 2% 2%;
+  color: #000000;
+}
+.lower:hover {
+  color: #54BAB9;
+}
+.copy {
+  color: #A7BBC7;
+  font-size: 0.75rem;
+}
+.back {
+  text-align: right;
+  font-size: 1rem;
+  padding: 1% 1.5%;
+  background-color: #000;
+  border-color: #000;
+}
+.back:hover {
+  background-color: #FF0000;
+}
+/*******element selector********/
+body {
+  font-family: 'Roboto Slab', serif;
+}
+h1 {
+  font-weight: 900;
+  line-height: 1.5;
+  font-size: 3.75rem;
+  padding: 2% 0;
+}
+h3 {
+  font-size: 2.25rem;
+  font-weight: 900;
+  padding-bottom: 2%;
+}
+footer {
+  padding: 5% 10% 2%;
+  text-align: center;
+  background-color: #5584AC;
+}
+/********id selector********/
+#header {
+  background-color: #5584AC;
+  padding: 5% 10%;
+  color:#fff;
+}
+#spec {
+  text-align: center;
+  padding: 5% 10%;
+}
+#review {
+  background-color: #5584AC;
+}
+#video {
+  padding: 5% 22% 2%;
+  background-color: #5584AC;
+}
+/************@media********/
+@media (max-width: 995px) {
+  .inner-top {
+    height: 370px;
+    margin: 2% auto;
+  }
+  .brochure {
+    padding: 10% auto;
+  }
+  h1 {
+    text-align: center;
+  }
+  h2 {
+    text-align: center;
+  }
+  .inner-bottom {
+    padding-bottom: 790px;
+  }
+}
+@media (min-width: 623px) and (max-width: 995px) {
+  .inner-top {
+    height: 500px;
+    margin: 2% auto;
+  }
+  .brochure {
+    padding-left: 40%;
+
+  }
+  .inner-bottom {
+    padding-bottom: 640px;
+  }
+}
+@media (min-width:788px) and (max-width: 995px) {
+  .inner-top {
+    height: 620px;
+  }
+}
